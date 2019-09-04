@@ -43,11 +43,33 @@
 .bg-image{
 	background-image: url("../img/header-img.jpg");
 	background-repeat: no-repeat;
-	padding-top:268px;
-    margin-bottom:150px;
-
+	padding-top: 350px;
+	background-size: 1540px 358px;
 }
 
+.bg-image div{
+	margin-top: -150px;
+	width: 350px;
+}
+
+.bg-image p{
+	font-size: 35px;
+	font-weight: 900;
+	color: #fff;
+
+}
+.bg-image span{
+	font-weight: 50;
+	font-size: 15px;
+}
+
+h2, .bg-image p, h3, h4{
+		text-transform: uppercase;
+	}
+
+header nav:first-child{
+	width: 502px;
+}
 
 /*--------------------------------------------------------------
 1.0 - SETTINGS  
@@ -86,6 +108,7 @@ table{
 -o-box-sizing: border-box;
 -ms-box-sizing: border-box;
 box-sizing: border-box;	
+font-family: 'Roboto', sans-serif;
 }
 
 
@@ -103,7 +126,7 @@ box-sizing: border-box;
 /* -- FRAMEWORKS -- */ 
 
 .wrapper{
-	width: 1140px;
+	width: 1000px;
 	margin: 0 auto;
 }
 .row{
@@ -120,7 +143,7 @@ box-sizing: border-box;
 	float: right;
 }
 .col-1-2{
-	width: 500px;
+	width: 400px;
 	float: left;
 }
 
@@ -132,11 +155,8 @@ box-sizing: border-box;
 	width: 244px;
 }
 
-.col-1-5{
+.col-1-5, #logos{
 	float: left;
-}
-.col-1-2{
-	width: 315px;
 }
 
 /*--------------------------------------------------------------
@@ -168,17 +188,30 @@ nav ul{
 -------------------------------------------------------------- */
 /* --SIZE-- */ 
 
-header img{
+header img, footer img{
 	width: 107px;
 }
 
+.bg-blue{
+	background-color: #e7f4f8;
+	margin-top: 0;
+}
 
 
-
-
-
-
-
+footer{
+    background-color: #4c515b;
+    padding: 30px 0;
+}
+li{
+    list-style: none;
+}
+footer ul{
+    padding: 0;
+}
+footer a, footer{
+    color: #909aad;
+    font-size: 12px;
+}
 
 
 
